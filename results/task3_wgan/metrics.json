@@ -1,0 +1,36 @@
+{
+  "task": "3 - GAN on original MNIST",
+  "objective": "wgan",
+  "architecture": "DCGAN-style conv generator/discriminator (28x28x1)",
+  "dataset": "original (grayscale) MNIST, no binarisation",
+  "train_size": 60000,
+  "epochs": 16,
+  "batch_size": 128,
+  "latent_dim": 100,
+  "lr": 0.0002,
+  "n_critic": 5,
+  "G_params": 778305,
+  "D_params": 283073,
+  "training_time_s": 1336.69,
+  "inference_time_batch64_s": 0.0021810999996887404,
+  "collapse_metrics_final": {
+    "num_modes_covered": 10,
+    "mode_entropy": 0.9923,
+    "mode_chi2_vs_uniform": 348.346,
+    "top1_share": 0.1316,
+    "histogram": [
+      996,
+      934,
+      1186,
+      1316,
+      657,
+      884,
+      854,
+      1211,
+      904,
+      1058
+    ]
+  },
+  "device": "cuda",
+  "training_time_note": "sum of per-epoch wall-clock (16 epochs, trained in 2 segments)"
+}
