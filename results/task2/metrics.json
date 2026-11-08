@@ -1,0 +1,20 @@
+{
+  "task": "2 - Neural autoregressive model",
+  "model": "NADE (order-agnostic MADE)",
+  "dataset": "binarized MNIST (random/dynamic thresholding)",
+  "train_size": 60000,
+  "epochs": 50,
+  "batch_size": 64,
+  "lr": 0.001,
+  "hidden": 500,
+  "n_hidden": 2,
+  "input_weights": true,
+  "params": 1650440,
+  "test_nll_nats_per_dim": 0.11754987580435616,
+  "test_nll_bits_per_dim": 0.1695886228800582,
+  "test_nll_bits_per_dim_dynamic_eval": 0.16681467469200176,
+  "n_test_eval": 10000,
+  "training_time_s": 1235.7951961,
+  "inference_time_batch64_s": 0.5219475999999759,
+  "device": "cuda"
+}

@@ -1,0 +1,35 @@
+{
+  "plain": {
+    "mean_pseudo_loglik": -42.29,
+    "foreground_rate": 0.1003,
+    "time_s": 7.5
+  },
+  "plain_bestof8": {
+    "mean_pseudo_loglik": -24.86,
+    "foreground_rate": 0.0598,
+    "time_s": 9.0,
+    "n_chains_per_kept": 8
+  },
+  "anneal": {
+    "mean_pseudo_loglik": -45.38,
+    "foreground_rate": 0.1172,
+    "time_s": 8.1
+  },
+  "anneal_bestof8": {
+    "mean_pseudo_loglik": -25.42,
+    "foreground_rate": 0.0501,
+    "time_s": 10.1,
+    "n_chains_per_kept": 8
+  },
+  "anneal_sparse": {
+    "mean_pseudo_loglik": -47.45,
+    "foreground_rate": 0.1125,
+    "time_s": 8.6
+  },
+  "anneal_sparse_bestof8": {
+    "mean_pseudo_loglik": -24.01,
+    "foreground_rate": 0.0521,
+    "time_s": 9.7,
+    "n_chains_per_kept": 8
+  }
+}
