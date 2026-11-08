@@ -1,0 +1,5 @@
+{
+  "checkpoint": "results/task3_dcgan/mnist_classifier.pt",
+  "test_accuracy": 0.9874,
+  "n_test": 10000
+}

@@ -1,0 +1,20 @@
+{
+  "task": "2 - Neural autoregressive model",
+  "model": "MADE (fixed raster order)",
+  "dataset": "binarized MNIST (random/dynamic thresholding)",
+  "train_size": 60000,
+  "epochs": 30,
+  "batch_size": 64,
+  "lr": 0.001,
+  "hidden": 500,
+  "n_hidden": 2,
+  "input_weights": true,
+  "params": 1650440,
+  "test_nll_nats_per_dim": 0.08794687159207404,
+  "test_nll_bits_per_dim": 0.12688051550758367,
+  "test_nll_bits_per_dim_dynamic_eval": 0.1273855390519923,
+  "n_test_eval": 10000,
+  "training_time_s": 366.96371569999974,
+  "inference_time_batch64_s": 1.2033980999999585,
+  "device": "cuda"
+}
